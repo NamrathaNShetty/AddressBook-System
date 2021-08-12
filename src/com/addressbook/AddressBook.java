@@ -61,6 +61,16 @@ public class AddressBook implements AddressBookInfo {
         }
 
     }
+    public void delete(String firstName) {
+        for ( int select = 0; select < book.size(); select++) {
+            if(book.get(select).getFirstName().equalsIgnoreCase(firstName)) {
+                Person person = book.get(select);
+                book.remove(person);
+                System.out.println("Successfully Deleted!");
+            }
+        }
+
+    }
 
     //Display the person details added
     public void display() {
