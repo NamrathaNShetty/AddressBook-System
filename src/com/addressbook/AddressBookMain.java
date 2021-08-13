@@ -15,9 +15,9 @@ public class AddressBookMain {
          * Delete the details using firstname
          */
         while( status ) {
-            System.out.println("Hello Enter your option to perform actions: \n Press 1 to add new person"+
-                    "\nPress 2 to update/edit details \nPress 3 to Display details \nPress 4 to Delete your details " +
-                    "\npress 9 to quit ]");
+            System.out.println("Hello Enter your option to perform actions: \n Press 1 to Add new person"+
+                    "\n Press 2 to Update/edit details \n Press 3 to Display details \n Press 4 to Delete details " +
+                    "\n Press 9 to quit ");
             int choice = scan.nextInt();
             switch (choice) {
                 case 1 :
